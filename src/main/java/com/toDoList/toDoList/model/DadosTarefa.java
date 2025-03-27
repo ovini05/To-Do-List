@@ -21,7 +21,6 @@ public class DadosTarefa {
     @Column(nullable = false)
     private String titulo;
 
-    @Enumerated(EnumType.STRING)
     private String descricao;
     private StatusTarefa statusTarefa;
     private LocalDate dataCriacao = LocalDate.now();
