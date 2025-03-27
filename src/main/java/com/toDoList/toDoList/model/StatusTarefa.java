@@ -2,5 +2,6 @@ package com.toDoList.toDoList.model;
 
 public enum StatusTarefa {
     PENDENTE,
-    CONCLUIDA;
+    CONCLUIDA,
+    EM_ANDAMENTO;
 }
